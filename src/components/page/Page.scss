@@ -1,0 +1,12 @@
+.content {
+  flex-grow: 1;
+}
+
+.page-section {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  display: flex;
+  min-height: calc(100vh - 64px - 60px); //64px header 60px footer
+  max-height: calc(100vh - 64px - 60px); //64px header 60px footer
+  overflow-y: scroll;
+}

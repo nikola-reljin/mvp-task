@@ -1,0 +1,17 @@
+.user-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  .avatar-container {
+    position: relative;
+    .avatar-initials {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-transform: capitalize;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}

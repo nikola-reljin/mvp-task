@@ -1,0 +1,8 @@
+@import "../../styles/variables";
+
+.navbar {
+  display: flex;
+  height: 64px;
+  padding-right: 60px;
+  border-bottom: 2px solid $navbar-border;
+}

@@ -1,0 +1,30 @@
+$theme-colors: (
+        "primary": #005B96,
+        "danger": #ff4136
+);
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.section {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.page-img {
+  max-width: 600px;
+}
+.bg-primary {
+  background: #005B96
+}

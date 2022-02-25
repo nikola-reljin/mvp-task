@@ -1,0 +1,11 @@
+@import "../../../styles/variables";
+
+.circle {
+  width: 20px;
+  height: 20px;
+}
+.report-card {
+  padding: 12px 20px;
+  background: $report-bg;
+  border-radius: 5px;
+}

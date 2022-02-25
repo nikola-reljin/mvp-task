@@ -1,0 +1,31 @@
+.filterbar {
+  display: flex;
+  @media(max-width: 800px) {
+    flex-direction: column;
+  }
+}
+.dropdown-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  background: white;
+  width: 242px;
+}
+
+.btn-filter {
+  background: #1BC5BD;
+  @media(max-width: 800px) {
+   margin-top: 12px;
+  }
+  .btn-primary {
+    background: #1BC5BD;
+    border: 0;
+  }
+}
+
+.react-datepicker__input-container{
+  text-align: center;
+}
+
+.dropdown-menu {
+}

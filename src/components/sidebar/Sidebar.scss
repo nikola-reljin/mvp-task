@@ -1,0 +1,17 @@
+.app-sidebar {
+  min-width: 80px;
+  max-width: 80px;
+  background: white;
+  position: sticky;
+  top:0;
+  text-align: center;
+
+  .nav-item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    &:first-of-type {
+      padding-top: 8px;
+    }
+  }
+}
